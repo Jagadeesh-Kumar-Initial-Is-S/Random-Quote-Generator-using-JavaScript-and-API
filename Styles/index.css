@@ -1,0 +1,84 @@
+/* Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel . */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #058ddc;
+}
+
+.wrapper {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 100px;
+    padding: 10px 40px;
+    box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+}
+
+.container h1 {
+    color: white;
+    margin-bottom: 30px;
+    background: #1073be;
+    font-size: 25px;
+    margin-top: 10px;
+    margin: 40px;
+}
+
+/* Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel . */
+.display {
+    background: #ffffff;
+    min-height: 20px;
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+}
+
+.container p {
+    color: #066dd4;
+    line-height: 2;
+    font-size: 19px;
+}
+
+.container h3::before {
+    content: "- ";
+}
+
+.container h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #0e045a;
+    margin: 20px 0 60px 0;
+}
+
+.container button {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #023b80;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+}
+
+.advertisement {
+    font-size: xx-small;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+
+/* Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel . */

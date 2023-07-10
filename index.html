@@ -1,0 +1,57 @@
+<!-- Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel . -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator using JavaScript and API</title>
+    <link href="./Styles/index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="advertisement">Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my email
+        address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified
+        Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel .</div>
+    <div class="wrapper">
+        <div class="advertisement">Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my
+            email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian
+            Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel .</div>
+        <div class="container">
+            <h1>Quote Generator</h1>
+            <div class="display">
+                <p id="quote">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facilis officia odio
+                    laudantium architecto debitis sint corporis tempore veniam laborum. Eum possimus ullam incidunt
+                    suscipit ipsam optio recusandae quam harum.
+                </p>
+                <h3 id="author">lorem ipsum</h3>
+            </div>
+            <button id="btn">Get Quote</button>
+        </div>
+        <div class="advertisement">Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my
+            email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian
+            Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel .</div>
+    </div>
+
+    <script>
+        let quote = document.getElementById("quote");
+        let author = document.getElementById("author");
+        let btn = document.getElementById("btn");
+        const url = "https://api.quotable.io/random";
+        // Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel .
+        let getQuote = () => {
+            fetch(url)
+                .then((data) => data.json())
+                .then((item) => {
+                    quote.innerText = item.content;
+                    author.innerText = item.author;
+                });
+        };
+        window.addEventListener("load", getQuote);
+        btn.addEventListener("click", getQuote);
+    </script>
+</body> 
+
+</html>
+<!-- Submitted and coded by Jagadeesh Kumar with initial as S, you may send mail to my email address which is equal to jagadeesh_2k17@proton.me and you may contribute some money to my Indian Unified Payment Interface (UPI) which is equal to jagadeesh-kumar@airtel . -->
